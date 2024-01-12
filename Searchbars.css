@@ -1,0 +1,127 @@
+body{
+    height: 1000px;
+    background-size: cover;
+ 
+    margin:0;
+    
+
+}
+.middle-section{
+    height: 700px;
+    background-color: #888888;
+
+}
+.body-middle{
+    display: flex;
+    flex-direction:column;
+    width: 800px;
+    padding-top:200px;
+    margin:auto;
+    align-items: center;
+}
+.body-header1{
+    font-size: medium;
+    color: white;
+    font-size:70px;
+    font-weight: 700;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 0px;
+}
+.body-header2{
+    font-size: medium;
+    color: rgb(255, 244, 163);
+    font-size:23px;
+    font-weight: 700;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom:35px;
+    overflow: auto;
+    
+}
+
+/*Navigation Search Bar*/
+.search-bar1{
+    display: flex;
+    width:200px;
+    height: 40px;
+    position: relative;
+    align-items: center;
+}
+
+.search-input1{
+    width:200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:100px;
+    border-width:1px;
+    border-color: #888888;
+    box-shadow: 1px 1px 5px #888888;
+}
+.search-button1:hover{
+    background-color: #f1eeee;
+}
+
+.search-button1{
+    height: 38px;
+    width:38px;
+    margin-right:2px;
+    border-radius: 50px;
+    margin-top: 1px;
+    padding-bottom:10px;
+    background-color: transparent;
+    border-color:black;
+    border-width:0px;
+    position: absolute;
+    right: 0;
+}
+.search-icon1{
+    width:25px;
+    padding-top:4px;
+}
+
+
+
+ 
+/*Main Search Bar*/
+.search-bar2{
+    display: flex;
+    height: 50px;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.search-input2{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    border-color:rgb(146, 38, 38);
+    border-width:0px;
+    box-shadow:5px 3px 15px #888888;
+}
+.search-bar2:active{
+    border-color:black;
+    border-width:0px;
+    border-style: hidden;
+}
+
+.search-button2{
+    width:130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    background-color: #04AA6D;
+    border-color:black;
+    border-width:0px;
+    box-shadow:1px 3px 15px #888888;
+}
+::placeholder{
+    font-family:verdana;
+    font-size:15px;
+}
+.search-icon{
+    width:25px;
+}

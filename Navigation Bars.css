@@ -1,0 +1,188 @@
+
+.site-header1{
+    display:flex;
+    height:65px;
+    background-color:white;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+/* Navigation 1-Left Section*/
+.left-section{
+    display: flex;
+    flex:2;
+    align-items: center;
+}
+
+.login-tile{
+    display: flex;
+}
+.main-logo{
+    width: 43px;
+    height:43px;
+    margin-left:15px;
+    margin-right:15px;
+}
+.head-links{
+    padding:20px;
+    color:black;
+    background-color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: large;
+    text-decoration-line: none;
+    display: flex; 
+    align-items: center;
+ 
+}
+.head-links:hover{
+    color:white;
+    background-color:rgb(4, 170, 109);
+}
+.head-links:active{
+    background-color:black ;
+}
+
+/*Right Section*/
+.right-section{
+    
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.head-links-right{
+    height: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    color:black;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: large;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+.head-links-right:hover{
+    color:white;
+    background-color:rgb(178, 184, 182);
+}
+.head-links-right:active{
+    background-color:black ;
+}
+.login-tile{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    background-color:rgb(217, 238, 225);
+    border-radius: 60px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: large;
+    align-items: center;
+    color:black;
+    
+}
+.sign-up{
+    padding-right:20px;
+    height:45px;
+    padding-left:20px;
+    border-radius: 60px;
+    text-decoration-line: none;
+    color:white;
+    background-color:rgb(4, 170, 109);
+    display: flex;
+    align-items: center;
+}
+.login{
+    height:45px;
+    padding-right:25px;
+    padding-left:15px;
+    display:flex;
+    border-radius: 60px;
+    align-items: center;    
+    text-decoration-line: none;
+    
+}
+.login-tile:hover{
+    background-color:rgb(23, 122, 86);
+}
+.login:hover{
+    color: white;
+}
+.site-header2{
+    height:35px;
+    top: 65px;
+    position: fixed;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color:rgb(40, 42, 53);
+    width: 100%;
+}
+.site-header2-items{
+    overflow-x:scroll;
+    scroll-behavior: smooth;
+    display: flex;
+}
+.site-header2-items::-webkit-scrollbar{
+    display:none!important;
+}
+.right-scroll-button{
+    z-index: 1;
+}
+.header2-links{
+    padding-left:15px;
+    padding-right: 15px;;
+    color:white;
+    background-color:transparent;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center; 
+  } 
+.header2-links:hover{
+    color:white;
+    background-color:#000000fb;
+}
+.header2-links:active{
+    background-color:black ;
+}
+.lang-title{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: larger;
+    padding-left: 15px;
+    padding-top:20px ;
+    padding-bottom: 10px;
+}
+.lang-units{
+    display:flex;
+    width:200px;
+    background-color:rgb(231, 233, 235);
+    flex-direction: column;
+    overflow:auto;
+    align-items: stretch;
+}
+.lang-unit-links{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-decoration-line: none;
+    padding: 7px;
+    padding-left: 15px;
+    color: black;
+}
+.lang-unit-links:hover{
+    background-color:rgb(23, 122, 86);
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
